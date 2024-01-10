@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    font-family: sans-serif;
+}
+img
+{
+    width: 100%;
+}
+
+header .container
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+header .container
+{
+    padding: 0 50px;
+}
+
+header .container ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    list-style: none;
+}
+
+header .container ul li a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* ================================================================================================ */
+#ABOUT
+{
+    margin-top: 80px;
+}
+
+#ABOUT .container
+{
+    padding: 0 50px;
+}
+
+#ABOUT .container h2
+{
+    font-size: 30px;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 8px;
+}
+
+#ABOUT .container img
+{
+    margin-top: 40px;
+    height: 300px;
+    /* object-fit: cover; */
+}
+/* ================================================================================================ */
+#WORK
+{
+    margin-top: 40px;
+}
+#WORK .container
+{
+    padding: 0 50px;
+}
+
+#WORK .container .cards
+{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
